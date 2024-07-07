@@ -85,7 +85,7 @@ def index():
         }
 
     return render_template("index.html", alert_message = alert_message, results = results)
-
+# function
 @app.route("/edit/<flower_id>", methods = ['GET'])
 def edit(flower_id):
     # Connect Database
